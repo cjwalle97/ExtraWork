@@ -30,11 +30,14 @@ public:
 	{
 		mName = other;
 	}
+	//4).
+	bool operator ==(Cat other) {
+		if (mName == other.mName && mAge == other.mAge)
+		{
+			return  true;
+		}
+	}
 };
-
-
-
-//4).
 
 //5).
 
