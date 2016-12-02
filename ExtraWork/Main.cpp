@@ -1,6 +1,6 @@
 #include <iostream>
 //1).
-char Reverse(char Word[])
+void Reverse(char Word[])
 {
 	int i = 0;
 	for (; Word[i] != '/0'; i++)
@@ -40,6 +40,15 @@ public:
 };
 
 //5).
+void evenArray(int numbers[], int size)
+{
+	int num = 0;
+	for (int i = 0; i < size; i++)
+	{
+		num += 2;
+		numbers[i] = num;
+	}
+}
 
 //6).
 
@@ -50,6 +59,9 @@ int main()
 {
 	char Word[12] = "Christopher";
 	char Reverse(Word[12]);
+	
 	//3).
 	
+	int Test[10];
+	evenArray(Test, 10);
 }
