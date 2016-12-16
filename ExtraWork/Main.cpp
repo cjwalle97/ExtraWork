@@ -51,17 +51,42 @@ void evenArray(int numbers[], int size)
 }
 
 //6).
+//int FindLargest(int a)
+//{
+//
+//}
 
 //7).
+int PrintFB()
+{
+	
+	for (int i = 0; i < 100; i++)
+	{
+		if (i % 3 == 0)
+		{
+			std::cout << "Fizz" << std::endl;
+		}
+		if (i % 5 == 0)
+		{
+			std::cout << "Buzz" << std::endl;
+		}
+		else
+		{
+			std::cout << '%i' << std::endl;
+		}
+	}
+	return list[101]
+}
 
 //8).
 int main()
 {
 	char Word[12] = "Christopher";
 	char Reverse(Word[12]);
-	
+
 	//3).
-	
+
 	int Test[10];
 	evenArray(Test, 10);
+	int PrintFB();
 }
